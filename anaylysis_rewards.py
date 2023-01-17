@@ -5,10 +5,9 @@ import seaborn as sns
 import scipy.stats as ss
 
 
-
 def estimated_rewards(df):
     """
-    Function by Luceri et al. (2020)
+    Function by Luceri et al. (2020) with slight moderations
     retrieves estimated rewards from the IRL results
     :param df: dataframe of IRL results
     :return: dataframe of only rewards
